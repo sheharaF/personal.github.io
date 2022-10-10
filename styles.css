@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(233, 217, 203);
+}
+
+.topic h1 {
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.topic .column{
+    width: 33.3%;
+    padding: 5px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topic .column img{
+    height: 275px;
+}
+.row{
+    display: flex;
+  }
+.intro{
+    font-size: 20px;
+    line-height: 2;
+    position: relative;
+    margin-left: 150px;
+}
+.basic{
+    padding: 10px;
+    margin-left: 300px;
+}
+.basic h2{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.basic table, th, td{
+    border: 1px solid black;
+    font-size: 18px;
+}
+.edu{
+    margin-right: 300px;
+}
+.edu h2{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: right;
+}
+.edu dl,dd,dt,ul,li{
+    font-size: 18px;
+    line-height: 2;
+    text-align: right;
+    list-style: none;
+}
+.edu dt{
+    font-style: oblique;
+    font-size: 20px;
+    line-height: 2;
+    text-align: right;
+}
+
+.sample h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sample img{
+    width: 1200px;
+    margin-left:20px;
+}
+.contact h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact table{
+    float: left;
+    border: 1px black;
+    margin: 20px;
+}
+.contact th,td{
+    padding: 10px;
+    width: 200px;
+    margin-left: 200px;
+}
+
